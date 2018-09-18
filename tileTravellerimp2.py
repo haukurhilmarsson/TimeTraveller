@@ -69,7 +69,8 @@ while not win:
             win = False
             validation = 1
         else:
-            unvalid(validation)
+           validation = unvalid(validation)
+           
 
     elif position == tile2:
         if validation == 1:
@@ -85,7 +86,7 @@ while not win:
             position = tile1
             validation = 1
         else:
-            unvalid(validation)
+            validation = unvalid(validation)
 
     elif position == tile3:
         if validation == 1:
@@ -98,7 +99,7 @@ while not win:
             position = tile2
             validation = 1
         else:
-            unvalid(validation)
+            validation = unvalid(validation)
 
     elif position == tile4:
         if validation == 1:
@@ -111,7 +112,7 @@ while not win:
             position = tile7
             validation = 1
         else:
-            unvalid(validation)
+            validation = unvalid(validation)
 
     elif position == tile5:
         if validation == 1:
@@ -124,7 +125,7 @@ while not win:
             position = tile2
             validation = 1
         else:
-            unvalid(validation)
+           validation = unvalid(validation)
 
     elif position == tile6:
         if validation == 1:
@@ -134,7 +135,7 @@ while not win:
             position = tile5
             validation = 1
         else:
-            unvalid(validation)
+            validation = unvalid(validation)
 
     elif position == tile7:
         if validation == 1:
@@ -147,7 +148,7 @@ while not win:
             position = tile8
             validation = 1
         else:
-            unvalid(validation)
+            validation = unvalid(validation)
 
     elif position == tile8:
         if validation == 1:
@@ -160,7 +161,7 @@ while not win:
             position = tile9
             validation = 1
         else:
-            unvalid(validation)
+            validation = unvalid(validation)
 
     elif position == tile9:
         ti9()
