@@ -31,13 +31,13 @@ while not win:
             win = False
             validation = 1
         else:
-            print("Not a valid direction")
+            print("Not a valid direction!")
             validation = 0
 
     elif position == tile2:
         if validation == 1:
             print("You can travel: (N)orth or (E)ast or (S)outh.")
-        command = str(input("Directions: "))
+        command = str(input("Direction: "))
         if command == 'N' or command == 'n':
             position = tile3
             validation = 1
@@ -53,8 +53,8 @@ while not win:
 
     elif position == tile3:
         if validation == 1:
-            print("You can travel: (E)east or (S)outh.")
-        command = str(input("Directions: "))
+            print("You can travel: (E)ast or (S)outh.")
+        command = str(input("Direction: "))
         if command == 'E' or command == 'e':
             position = tile4
             validation = 1
@@ -67,8 +67,8 @@ while not win:
 
     elif position == tile4:
         if validation == 1:
-            print("You can travel: (W)est or (E)ast.")
-        command = str(input("Directions: "))
+            print("You can travel: (E)ast or (W)est.")
+        command = str(input("Direction: "))
         if command == 'W' or command == 'w':
             position = tile3
             validation = 1
@@ -81,8 +81,8 @@ while not win:
 
     elif position == tile5:
         if validation == 1:
-            print("You can travel: (W)est or (S)outh.")
-        command = str(input("Directions: "))
+            print("You can travel: (S)outh or (W)est.")
+        command = str(input("Direction: "))
         if command == 'S' or command == 's':
             position = tile6
             validation = 1
@@ -96,7 +96,7 @@ while not win:
     elif position == tile6:
         if validation == 1:
             print("You can travel: (N)orth.")
-        command = str(input("Directions: "))
+        command = str(input("Direction: "))
         if command == 'N' or command == 'n':
             position = tile5
             validation = 1
@@ -106,8 +106,8 @@ while not win:
 
     elif position == tile7:
         if validation == 1:
-            print("You can travel: (W)est or (S)outh.")
-        command = str(input("Directions: "))
+            print("You can travel: (S)outh or (W)est.")
+        command = str(input("Direction: "))
         if command == 'W' or command == 'w':
             position = tile4
             validation = 1
@@ -121,7 +121,7 @@ while not win:
     elif position == tile8:
         if validation == 1:
             print("You can travel: (N)orth or (S)outh.")
-        command = str(input("Directions: "))
+        command = str(input("Direction: "))
         if command == 'N' or command == 'n':
             position = tile7
             validation = 1
